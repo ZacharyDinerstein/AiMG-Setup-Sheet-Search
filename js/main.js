@@ -11,6 +11,7 @@
 
 NEXT
 - Build second page
+- Radio buttons are firing incorrectly when multiple are clicked
 
 
 ICEBOX
