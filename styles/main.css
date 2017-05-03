@@ -1,0 +1,159 @@
+hr {
+    border-top:1px dotted #dcdcdc;
+}
+
+
+body {
+    padding: 50px;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+header {
+    position: relative;
+    padding-bottom: 14px;
+    border-bottom: 2px red solid;
+}
+
+header .banner {
+    background-color: red;
+    font-size: 1.3em;
+    color: white;
+    width: 300px;
+    text-align: center;
+    padding: 3px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 1.4em;
+    text-align: center;
+}
+.header-text-container {
+    text-align: center;
+}
+
+.header-text-container h3 {
+    display: inline-block;
+    font-size: 1.1em;
+    letter-spacing: .001em;
+}
+
+
+.header-text-container div {
+    display: inline-block;
+}
+
+img {
+    position: absolute;
+    bottom: 0px;
+    max-width: 163px;
+}
+
+
+main {
+    padding-top: 14px;
+}
+
+.form-inline {
+    margin-bottom: 19px;
+}
+
+.form-inline-1 .form-group {
+    width: 33%;
+}
+
+.form-inline-1 label {
+    width: 44%;
+}
+
+.form-inline-1 .line-under {
+    width: 48%;
+}
+
+.form-inline .selectors-container:first-child {
+    width: 35%;
+}
+
+
+
+
+
+
+
+label {
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+input.line-under {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #dcdcdc;
+    bottom: 4px;
+}
+
+.full-line-label {
+    width: 14%;
+}
+
+.full-line {
+    width: 85%;
+    position: relative;
+    left: .6%;
+}
+
+
+.indented-field-container input.line-under {
+    width: 47px;
+}
+
+.help-container {
+        width: 282px;
+    display: inline-block;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #9a9a9a;
+    font-size: .8em;
+}
+
+.help-block.stacked {
+    display: inline;
+}
+
+
+.radio-inline input[type="radio"], .checkbox-inline input[type="checkbox"] {
+    position: relative;
+}
+
+.indented-field-container {
+    padding-left:  66px;
+}
+
+textarea.form-control {
+    background: rgba(255,255,255,.1);
+    border: 0;
+    border-radius: 0px;
+    margin: 0;
+    outline: 0;
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+
+    margin-bottom: 0px;
+}
+
+textarea.form-control:focus {
+    outline: 0;
+}
